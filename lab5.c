@@ -64,24 +64,6 @@ int main(int argc, char *argv[])
 }
 
 
-int getNewFilename(char orgFilename[], char newFilename[]) {  
-    char* sPtr;
-
-    strcpy(newFilename, orgFilename);
-    sPtr = strstr(newFilename, ".ppm");
-    if(!sPtr) {
-        printf("Error: '%s' needs '.ppm' ending \n", newFilename);  
-        return 0;  
-    }
-    if((32 - strlen(newFilename)) < 12) {  
-        printf("Error: '%s' filename is too long \n", newFilename);  
-        return 0;  
-    }
-    strcpy(sPtr, "_hidden.ppm");  
-    /* printf("old [%s], sub [%s], new [%s] \n", orgFilename, sPtr, newFilename); */  
-    return 1;
-}  
-
 
 int hideMessage(struct Image *img, int bit, char textFilename[]) {
 
