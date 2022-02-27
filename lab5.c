@@ -56,6 +56,7 @@ int main(int argc, char *argv[])
         return 1;
     }  
     /* this print in main is OK, it is AJ certified */
+    /* but NO other prints in main are allowed      */
     printf("image saved as %s \n", newImageFilename);  
 
     if(img) free(img);  
