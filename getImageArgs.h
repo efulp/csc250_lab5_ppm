@@ -1,7 +1,7 @@
 /**
  * @author Nirre Pluf {@literal pluf@wfu.edu}
  * @date Feb. 27, 2022
- * @assignment Lab 4
+ * @assignment Lab 5
  * @course CSC 250
  *
  * header files for parsing the command line arguments
