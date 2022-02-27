@@ -4,6 +4,9 @@
  * @assignment Lab 5
  * @course CSC 250
  *
+ * CHANGES:
+ *   added processHideImageArgs
+ *
  * source files for parsing the command line arguments
  **/   
 
